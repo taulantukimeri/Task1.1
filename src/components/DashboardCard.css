@@ -1,0 +1,87 @@
+.Card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid grey;
+    width: max(250px, 23vw);
+    height: max(250px, 23vw);
+    font-size: max(13px, 1vw);
+}
+
+.v-date {
+    display: flex;
+    width: 90%;
+}
+
+.n-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: max(12px, 0.9vw);
+    width: 100%;
+    /* text-align: start; */
+    height: max(20px,40%);
+
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max(60px, 9vw);
+    height: max(25px, 2vw);
+    border-radius: 20px;
+    background-color: white;
+    color: rgb(44, 44, 209);
+    /* border-color: rgb(28, 28, 228); */
+    border: 1px solid rgb(60, 60, 186);
+    font-size: max(11px, 0.9vw);
+}
+
+.header{
+    width: 90%;
+    height: max(20px, 4vw);
+    text-align: start;
+}
+
+.s-name{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 100%;
+    height: max(10px, 2vw);
+    gap: max(10px, 1.5vw);
+    
+}
+.span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    padding: 3px 20px;
+    height: auto;
+    background-color: limegreen;
+    color: white;
+}
+
+.icon{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.n-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+
